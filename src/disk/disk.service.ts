@@ -9,6 +9,6 @@ export class DiskService {
   getData() {
     console.log("Drawing 20 watts of power from Power Service");
     this.powerService.supplyPower(20);
-    return "data!";
+    return 'data!';
   }
 }
